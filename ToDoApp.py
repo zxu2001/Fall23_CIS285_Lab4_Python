@@ -47,8 +47,13 @@ def main():
     controller = ToDoController(model, view)
 
     controller.add_task("Go shopping")
+<<<<<<< HEAD
     controller.add_task("Complete school project")
     controller.add_task("Attend work meeting")
+=======
+    controller.add_task("Complete work project at 10pm")
+    controller.add_task("Attend school meeting at 9am")
+>>>>>>> view
 
     # Display the initial To-Do list
     controller.display_todo_list()
