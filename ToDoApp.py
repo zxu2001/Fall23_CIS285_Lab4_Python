@@ -56,13 +56,13 @@ def main():
     controller.display_todo_list()
 
     # Sort and display the To-Do list
- #   controller.sort_todo_list()
+    controller.sort_todo_list()
 
     # Delete a task (e.g., the second task, index 1)
- #   controller.delete_task(1)
+    controller.delete_task(1)
 
     # Display the updated To-Do list after deletion
-    # controller.display_todo_list()
+    controller.display_todo_list()
 
 if __name__ == "__main__":
     main()
