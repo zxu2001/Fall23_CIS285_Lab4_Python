@@ -59,7 +59,7 @@ def main():
     controller.sort_todo_list()
 
     # Delete a task (e.g., the second task, index 1)
-    controller.delete_task(1)
+    controller.delete_task(4)
 
     # Display the updated To-Do list after deletion
     controller.display_todo_list()
