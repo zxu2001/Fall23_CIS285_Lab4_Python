@@ -62,7 +62,7 @@ def main():
     controller.delete_task(3)
 
     # Display the updated To-Do list after deletion
-    controller.display_todo_list()
+    # controller.display_todo_list()
 
 if __name__ == "__main__":
     main()
